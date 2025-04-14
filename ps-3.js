@@ -43,7 +43,7 @@ for (let i = 1 ; i <= factorialNumber ; i++){
 console.log(factorial);
 
 
-// 
+// write a JS program to find the largest number in the given array where all of the number are positive 
 
 let arr1 = [1,2,3,4,5,6,7,8,9];
 let largestNumber = 0;
