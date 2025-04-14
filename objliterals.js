@@ -69,15 +69,15 @@ delete student.previousAge;
 // for example 
 
 const classInfo = {
-    aman : {
+    aman: {
         age: 22,
         marks: 90,
     },
-    sohail : {
+    sohail: {
         age: 21,
         marks: 85,
     },
-    shivam : {
+    shivam: {
         age: 23,
         marks: 95,
     },
