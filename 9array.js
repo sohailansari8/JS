@@ -163,3 +163,48 @@ console.log(numbers2); // this will print the array of numbers in ascending orde
 let nestedArray = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]; // this will create a nested array
 // this will print the nested array
 console.log(nestedArray); // this will print the nested array
+
+
+
+// ARRAY METHODS 
+
+// 1. forEach() method: The forEach() method executes a provided function once for each array element.
+// It does not return a new array, but it can be used to perform side effects on each element of the array.
+// It is often used for iterating over arrays and performing operations on each element.
+
+const Numbers = [1, 2, 3, 4, 5];
+numbers.forEach((numbers) => {
+    console.log(numbers * 2);
+});
+// output will be 2,4,6,8,10
+
+// 2. map() method: The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+// it is used ti transform each element and return a new array with the transform values 
+
+let nums = [1, 2, 3, 4, 5];
+let double = nums.map((num) => {
+    return num * 2;
+})
+console.log(double);
+
+
+// 3 . filter() method : the filter method make a new array with all elements that pass the given condition 
+// it is used to filter out elements from an array based on a condtion 
+
+let num = [1, 2, 3, 5, 6, 8, 9, 7, 4, 6, 5, 6, 8, 2, 6, 5,];
+let sort = num.filter((num) => {
+    return num > 5;
+})
+console.log(sort);
+
+
+// 4. reduce() method : the method is used to reduce the array to a single value by iterating over each element and applying a function to it
+// it is used to perform a calculation on the array and return a single value
+
+let num1 = [1,2,3,4,5,6,7,8,9];
+let sum = num1.reduce((num1 , num2) => { 
+ return num1+num2;
+});
+console.log(sum);
+
+
