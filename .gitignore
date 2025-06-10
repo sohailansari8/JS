@@ -1,0 +1,5 @@
+# Ignore all ps-[number].js files
+ps-*.js
+
+# Ignore all ps-[number].html files
+ps-*.html
